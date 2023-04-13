@@ -49,7 +49,7 @@ module.exports = {
 //    converted_base = base_emoji.codePointAt(0).toString(16);
 //    converted_secondary = secondary_emoji.codePointAt(0).toString(16);
 
-    imgpath = "./stickers/"+converted_base+"_"+converted_secondary+".png"
+    imgpath = "./images/"+converted_base+"_"+converted_secondary+".png"
     console.log(imgpath)
 
     try {
